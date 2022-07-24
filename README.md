@@ -45,7 +45,7 @@ You can deploy RestCalloutFramework directly to your org by clicking the button 
 
 <a href="https://githubsfdeploy.herokuapp.com?owner=khanwebguru&repo=RestCalloutFramework&ref=gsdt">
   <img alt="Deploy to Salesforce"
-       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/main/deploy.png">
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
 
 ## Usage
@@ -149,13 +149,13 @@ I have created a working example for both VF and Lightning that you can deploy i
 
 <a href="https://githubsfdeploy.herokuapp.com?owner=khanwebguru&repo=RestCalloutFramework&ref=asyncexample">
   <img alt="Deploy Asynchronous Examples to Salesforce"
-       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/main/deploy.png">
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
 
 
 *Visualforce Page Output :-*
 
-![SFDCStopCalloutVFPage](https://github.com/khanwebguru/RestCalloutFramework/blob/main/Images/SFDCStopCalloutVFPage.JPG)
+![SFDCStopCalloutVFPage](https://github.com/khanwebguru/RestCalloutFramework/blob/master/Images/SFDCStopCalloutVFPage.JPG)
 
 ## Tools and Softwares used
 
