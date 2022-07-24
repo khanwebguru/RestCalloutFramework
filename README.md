@@ -1,6 +1,6 @@
 # RestCalloutFramework
 
-This is a lightweight framework for apex HTTP callouts in salesforce.
+This is a lightweight framework for apex HTTP callouts in salesforce. Use this if you are making callouts/Rest Callouts from Apex.
 
 ## Overview
 
