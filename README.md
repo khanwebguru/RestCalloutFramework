@@ -152,11 +152,6 @@ I have created a working example for both VF and Lightning that you can deploy i
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
 
-
-*Visualforce Page Output :-*
-
-![SFDCStopCalloutVFPage](https://github.com/khanwebguru/RestCalloutFramework/blob/master/Images/SFDCStopCalloutVFPage.JPG)
-
 ## Tools and Softwares used
 
 You just need a salesforce org to run this application. 
@@ -178,8 +173,9 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on code of conduct an
 
 ## Authors
 
-* **ASIF A KHAN** - [@asifahmedkhan](https://www.linkedin.com/in/asifahmedkhan/)
+* **ASIF A KHAN** - [@asifahmedkhan](https://www.linkedin.com/in/asifahmedkhan/) inspired by [@rahulmalhotra]
 
 ## License
 
 This project is licensed under GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details.
+
