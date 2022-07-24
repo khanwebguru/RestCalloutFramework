@@ -173,7 +173,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on code of conduct an
 
 ## Authors
 
-* **ASIF A KHAN** - [@asifahmedkhan](https://www.linkedin.com/in/asifahmedkhan/) inspired by [@rahulmalhotra]
+* **ASIF A KHAN** - [@asifahmedkhan](https://www.linkedin.com/in/asifahmedkhan/) inspired by Rahul M
 
 ## License
 
