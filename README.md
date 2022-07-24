@@ -45,7 +45,7 @@ You can deploy RestCalloutFramework directly to your org by clicking the button 
 
 <a href="https://githubsfdeploy.herokuapp.com?owner=khanwebguru&repo=RestCalloutFramework&ref=gsdt">
   <img alt="Deploy to Salesforce"
-       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/main/deploy.png">
 </a>
 
 ## Usage
@@ -54,11 +54,11 @@ You can deploy RestCalloutFramework directly to your org by clicking the button 
 
 Once installed you'll see the below custom metadata records created in your org:-
 
-![RestCalloutConfigurationMetadata](https://github.com/khanwebguru/RestCalloutFramework/blob/master/Images/HTTPCalloutConfigurationMetadata.JPG)
+![RestCalloutConfigurationMetadata](https://github.com/khanwebguru/RestCalloutFramework/blob/main/Images/HTTPCalloutConfigurationMetadata.JPG)
 
 You can see that I have specified details of the request in the metadata itself.
 
-![SFDCStopAPIRemoteSiteSettingsRecord](https://github.com/khanwebguru/RestCalloutFramework/blob/master/Images/SFDCStopAPIRemoteSiteSettingsRecord.JPG)
+![SFDCStopAPIRemoteSiteSettingsRecord](https://github.com/khanwebguru/RestCalloutFramework/blob/main/Images/SFDCStopAPIRemoteSiteSettingsRecord.JPG)
 
 You can copy and execute the below code in developer console to test the framework.
 As you can see below, I have passed the custom metadata record developer name in the constructor.
@@ -70,7 +70,7 @@ System.debug(service.getRequest());
 System.debug(service.sendRequest().getBody());
 ```
 
-![DeveloperConsole](https://github.com/khanwebguru/RestCalloutFramework/blob/master/Images/DeveloperConsole.JPG)
+![DeveloperConsole](https://github.com/khanwebguru/RestCalloutFramework/blob/main/Images/DeveloperConsole.JPG)
 
 Custom metadata and remote site setting record of SFDC Stop API are for demo purposes only. 
 You can delete these records after installation and create your own records for HTTP callouts.
@@ -78,7 +78,7 @@ Make sure you **Do not delete the TestMetadata** record  of HTTPCalloutConfigura
 
 ### Asynchronous Callouts
 
-Now, let's jump on to the asynchronous apex callouts part. As you must be aware that the asynchronous callouts in apex are implemented using the [Continuation](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_class_System_Continuation.htm) class. The continuation class has different syntax for Visualforce Pages and Lightning Components. So, we're going to see the syntax for implementation in both cases. The good thing is that we have a single [RestCalloutAsyncService](https://github.com/khanwebguru/RestCalloutFramework/blob/master/force-app/main/default/classes/RestCalloutAsyncService.cls) class that we can use for both Visualforce Pages and Lightning Components.
+Now, let's jump on to the asynchronous apex callouts part. As you must be aware that the asynchronous callouts in apex are implemented using the [Continuation](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_class_System_Continuation.htm) class. The continuation class has different syntax for Visualforce Pages and Lightning Components. So, we're going to see the syntax for implementation in both cases. The good thing is that we have a single [RestCalloutAsyncService](https://github.com/khanwebguru/RestCalloutFramework/blob/main/force-app/main/default/classes/RestCalloutAsyncService.cls) class that we can use for both Visualforce Pages and Lightning Components.
 
 #### Visualforce Page
 
@@ -149,13 +149,13 @@ I have created a working example for both VF and Lightning that you can deploy i
 
 <a href="https://githubsfdeploy.herokuapp.com?owner=khanwebguru&repo=RestCalloutFramework&ref=asyncexample">
   <img alt="Deploy Asynchronous Examples to Salesforce"
-       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/main/deploy.png">
 </a>
 
 
 *Visualforce Page Output :-*
 
-![SFDCStopCalloutVFPage](https://github.com/khanwebguru/RestCalloutFramework/blob/master/Images/SFDCStopCalloutVFPage.JPG)
+![SFDCStopCalloutVFPage](https://github.com/khanwebguru/RestCalloutFramework/blob/main/Images/SFDCStopCalloutVFPage.JPG)
 
 ## Tools and Softwares used
 
